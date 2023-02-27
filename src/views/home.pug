@@ -8,8 +8,14 @@ html(lang="en")
         title Doom
     body 
         header
-            h1 Hello
+            h1 Hello Welcome Doom
           
         main 
-            h3 Welcome Doom
+            form#nickname
+                input(type="text" placeholder="Choose a Nickname" required)
+                button Send
+            ul
+            form#message
+                input(type="text" placeholder="Write a Message" required)
+                button Send
         script(src="/public/js/app.js") 
